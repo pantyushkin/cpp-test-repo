@@ -20,7 +20,7 @@ int main() {
             if (!is_digit) is_digit = isdigit (c);
             if (!is_punct) is_punct = ispunct (c);
         }
-        if (is_upper + is_lower + is_digit + is_punct >= 3){
+        if (is_upper + is_lower + is_digit + is_punct >= 3) {
             cout << "YES"s << endl;
         } else {
             cout << "NO"s << endl;
