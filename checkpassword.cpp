@@ -28,5 +28,4 @@ int main() {
     } else {
         cout << "NO"s << endl;
     }
-
 }
